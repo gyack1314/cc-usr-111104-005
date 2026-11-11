@@ -1,0 +1,29 @@
+{
+  "routes": [
+    {
+      "path": "/manifest.json",
+      "responses": [
+        {
+          "status": 200,
+          "headers": [],
+          "file": "truncated-stream-manifest.json"
+        }
+      ]
+    },
+    {
+      "path": "/truncated-stream.zip",
+      "responses": [
+        {
+          "status": 200,
+          "headers": [
+            [
+              "Content-Type",
+              "application/zip"
+            ]
+          ],
+          "file": "truncated-stream.zip"
+        }
+      ]
+    }
+  ]
+}

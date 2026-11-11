@@ -1,0 +1,23 @@
+{
+  "routes": [
+    {
+      "path": "/manifest.json",
+      "responses": [
+        {"status": 200, "headers": [], "file": "normal-manifest.json"},
+        {"status": 200, "headers": [], "file": "revision2-manifest.json"}
+      ]
+    },
+    {
+      "path": "/normal.zip",
+      "responses": [
+        {"status": 200, "headers": [["Content-Type", "application/zip"]], "file": "normal.zip"}
+      ]
+    },
+    {
+      "path": "/revision2.zip",
+      "responses": [
+        {"status": 200, "headers": [["Content-Type", "application/zip"]], "file": "revision2.zip"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "package_id": "demo-package",
+  "revision": 1,
+  "archive": "/collision.zip",
+  "size": 200,
+  "sha256": "3e1dd6a53d1adcbc9c531a2417782fde1671403bbb2c9febe1fc9334e2686883",
+  "members": [
+    {
+      "path": "A.txt",
+      "size": 1,
+      "sha256": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb",
+      "role": "resource"
+    },
+    {
+      "path": "a.txt",
+      "size": 1,
+      "sha256": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
+      "role": "resource"
+    }
+  ]
+}

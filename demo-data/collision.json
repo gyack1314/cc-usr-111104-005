@@ -1,0 +1,29 @@
+{
+  "routes": [
+    {
+      "path": "/manifest.json",
+      "responses": [
+        {
+          "status": 200,
+          "headers": [],
+          "file": "collision-manifest.json"
+        }
+      ]
+    },
+    {
+      "path": "/collision.zip",
+      "responses": [
+        {
+          "status": 200,
+          "headers": [
+            [
+              "Content-Type",
+              "application/zip"
+            ]
+          ],
+          "file": "collision.zip"
+        }
+      ]
+    }
+  ]
+}

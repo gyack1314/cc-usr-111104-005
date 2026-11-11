@@ -1,0 +1,21 @@
+{
+  "package_id": "demo-package",
+  "revision": 2,
+  "archive": "/revision2.zip",
+  "size": 248,
+  "sha256": "e654ca01604876d2cdb18e2774017d84b386cd1760362b9df73630653716cfa1",
+  "members": [
+    {
+      "path": "team-a/readme.txt",
+      "size": 18,
+      "sha256": "dd9f1f1b258fe8c746fcce6a97e61912e609f68c0291a1f39ed4b899f4b55c10",
+      "role": "readme"
+    },
+    {
+      "path": "empty.txt",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "role": "resource"
+    }
+  ]
+}

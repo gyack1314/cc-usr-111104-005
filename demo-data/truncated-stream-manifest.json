@@ -1,0 +1,15 @@
+{
+  "package_id": "demo-package",
+  "revision": 1,
+  "archive": "/truncated-stream.zip",
+  "size": 158,
+  "sha256": "84bdb8d51949c115a7edf85508450b930938243a439b275372c05d920647f61c",
+  "members": [
+    {
+      "path": "team-a/readme.txt",
+      "size": 24,
+      "sha256": "c8bef55de36f7d1d079993360227fe9eb849869081826e76fa3e7cb96bc7ec23",
+      "role": "readme"
+    }
+  ]
+}

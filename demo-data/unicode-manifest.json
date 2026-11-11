@@ -1,0 +1,15 @@
+{
+  "package_id": "demo-package",
+  "revision": 1,
+  "archive": "/unicode.zip",
+  "size": 135,
+  "sha256": "70e36fcd27abf6e13c80eb5cf20f25203fe64ea44c2d3b72f52f7bf532049ebe",
+  "members": [
+    {
+      "path": "café/Note.txt",
+      "size": 5,
+      "sha256": "aee610558292023758a4229ddcf75f167c9904313a83cf795232ed7f7e2131c9",
+      "role": "resource"
+    }
+  ]
+}

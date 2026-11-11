@@ -1,0 +1,15 @@
+{
+  "package_id": "demo-package",
+  "revision": 1,
+  "archive": "/duplicate.zip",
+  "size": 229,
+  "sha256": "94eedc148da117e0a44918b3ded5f06c0912206b0cc1db60fcb53c3af5be2fd1",
+  "members": [
+    {
+      "path": "note.txt",
+      "size": 6,
+      "sha256": "b640e840b19d378660b32fb51ae18d67dccb4a8596a29e7bd72c1b2ae5928f41",
+      "role": "resource"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "routes": [
+    {
+      "path": "/manifest.json",
+      "responses": [
+        {
+          "status": 200,
+          "headers": [],
+          "file": "bad-stream-manifest.json"
+        }
+      ]
+    },
+    {
+      "path": "/bad-stream.zip",
+      "responses": [
+        {
+          "status": 200,
+          "headers": [
+            [
+              "Content-Type",
+              "application/zip"
+            ]
+          ],
+          "file": "bad-stream.zip"
+        }
+      ]
+    }
+  ]
+}

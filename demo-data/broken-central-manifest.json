@@ -1,0 +1,33 @@
+{
+  "package_id": "demo-package",
+  "revision": 1,
+  "archive": "/broken-central.zip",
+  "size": 595,
+  "sha256": "6df7c16b4bf9cb176489ccb2686798602f6b0f99bb8c63a4a1b92baa716abd55",
+  "members": [
+    {
+      "path": "team-a/readme.txt",
+      "size": 24,
+      "sha256": "c8bef55de36f7d1d079993360227fe9eb849869081826e76fa3e7cb96bc7ec23",
+      "role": "readme"
+    },
+    {
+      "path": "team-a/data.bin",
+      "size": 128,
+      "sha256": "d2742f1f4ac6bb7ca2b239ee18402ba8b3f9f8e652d2a72973c2b9ba11c08cf6",
+      "role": "resource"
+    },
+    {
+      "path": "team-b/readme.txt",
+      "size": 6,
+      "sha256": "e618ceaa77728baaf382c3c58980d1ef1e75003e83dc2fe322caeea1abcc70d3",
+      "role": "document"
+    },
+    {
+      "path": "empty.txt",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "role": "resource"
+    }
+  ]
+}

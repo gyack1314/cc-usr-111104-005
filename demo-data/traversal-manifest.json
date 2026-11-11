@@ -1,0 +1,15 @@
+{
+  "package_id": "demo-package",
+  "revision": 1,
+  "archive": "/traversal.zip",
+  "size": 127,
+  "sha256": "4f076655d76a3ca783d70e8c38930d760c854dfff3819f1c624ad46a71eea703",
+  "members": [
+    {
+      "path": "../escape.txt",
+      "size": 1,
+      "sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881",
+      "role": "resource"
+    }
+  ]
+}

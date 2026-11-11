@@ -1,0 +1,29 @@
+{
+  "routes": [
+    {
+      "path": "/manifest.json",
+      "responses": [
+        {
+          "status": 200,
+          "headers": [],
+          "file": "extra-manifest.json"
+        }
+      ]
+    },
+    {
+      "path": "/extra.zip",
+      "responses": [
+        {
+          "status": 200,
+          "headers": [
+            [
+              "Content-Type",
+              "application/zip"
+            ]
+          ],
+          "file": "extra.zip"
+        }
+      ]
+    }
+  ]
+}

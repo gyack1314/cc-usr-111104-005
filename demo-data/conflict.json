@@ -1,0 +1,29 @@
+{
+  "routes": [
+    {
+      "path": "/manifest.json",
+      "responses": [
+        {
+          "status": 200,
+          "headers": [],
+          "file": "conflict-manifest.json"
+        }
+      ]
+    },
+    {
+      "path": "/conflict.zip",
+      "responses": [
+        {
+          "status": 200,
+          "headers": [
+            [
+              "Content-Type",
+              "application/zip"
+            ]
+          ],
+          "file": "conflict.zip"
+        }
+      ]
+    }
+  ]
+}

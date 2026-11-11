@@ -1,0 +1,29 @@
+{
+  "routes": [
+    {
+      "path": "/manifest.json",
+      "responses": [
+        {
+          "status": 200,
+          "headers": [],
+          "file": "unicode-manifest.json"
+        }
+      ]
+    },
+    {
+      "path": "/unicode.zip",
+      "responses": [
+        {
+          "status": 200,
+          "headers": [
+            [
+              "Content-Type",
+              "application/zip"
+            ]
+          ],
+          "file": "unicode.zip"
+        }
+      ]
+    }
+  ]
+}

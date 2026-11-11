@@ -1,0 +1,21 @@
+{
+  "package_id": "demo-package",
+  "revision": 1,
+  "archive": "/symlink.zip",
+  "size": 253,
+  "sha256": "4468dcba10113cc6a37b3f5bb6f07ae054514bf405c3d84bced0ef670f0573a6",
+  "members": [
+    {
+      "path": "normal-target.txt",
+      "size": 10,
+      "sha256": "a3863e6f5c0fb463c18edae49aa791f4d5e1d5e3ad4aeee2df85cd9f86f30c10",
+      "role": "resource"
+    },
+    {
+      "path": "link.txt",
+      "size": 17,
+      "sha256": "05b50b3c1060cb9091068c8ffd1f8065dbc791cfa4663b33bc7421b577ff646e",
+      "role": "resource"
+    }
+  ]
+}

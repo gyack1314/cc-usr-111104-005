@@ -1,0 +1,15 @@
+{
+  "package_id": "demo-package",
+  "revision": 1,
+  "archive": "/crc.zip",
+  "size": 153,
+  "sha256": "d46e18ca5434af664d0e0b2a8b4327295aae58ca980748814f87a2d9465661b4",
+  "members": [
+    {
+      "path": "team-a/readme.txt",
+      "size": 24,
+      "sha256": "c8bef55de36f7d1d079993360227fe9eb849869081826e76fa3e7cb96bc7ec23",
+      "role": "readme"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "routes": [
+    {
+      "path": "/manifest.json",
+      "responses": [
+        {
+          "status": 200,
+          "headers": [],
+          "file": "bomb-manifest.json"
+        }
+      ]
+    },
+    {
+      "path": "/bomb.zip",
+      "responses": [
+        {
+          "status": 200,
+          "headers": [
+            [
+              "Content-Type",
+              "application/zip"
+            ]
+          ],
+          "file": "bomb.zip"
+        }
+      ]
+    }
+  ]
+}

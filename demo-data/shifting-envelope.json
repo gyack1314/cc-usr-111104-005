@@ -1,0 +1,5 @@
+{
+  "dir": ".",
+  "manifest": "normal-manifest.json",
+  "shift_to": "revision2-manifest.json"
+}

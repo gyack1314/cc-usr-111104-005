@@ -1,0 +1,21 @@
+{
+  "package_id": "demo-package",
+  "revision": 1,
+  "archive": "/conflict.zip",
+  "size": 254,
+  "sha256": "39f8e6fd2302134ed90b45e190ccdeecb04e8601232571a79eee515980257aa9",
+  "members": [
+    {
+      "path": "team-a/readme.txt",
+      "size": 24,
+      "sha256": "02fc393a347924c51f4d1158fcbfacaa58cbad9c87b54eddcc8f58e81e0b157b",
+      "role": "readme"
+    },
+    {
+      "path": "empty.txt",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "role": "resource"
+    }
+  ]
+}

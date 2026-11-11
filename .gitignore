@@ -12,3 +12,8 @@ __pycache__/
 .DS_Store
 out/
 *.warc
+
+# 采集器本地生成物（合成样本与资料库，全部可由脚本重建）
+demo-data/
+local-repo/
+*.receiving-tmp

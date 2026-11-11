@@ -1,0 +1,15 @@
+{
+  "package_id": "demo-package",
+  "revision": 1,
+  "archive": "/bad-stream.zip",
+  "size": 158,
+  "sha256": "63fab52c9b92fdbe6093597fb00c5233074f91921bcd1f34484dad404cd6a179",
+  "members": [
+    {
+      "path": "team-a/readme.txt",
+      "size": 24,
+      "sha256": "c8bef55de36f7d1d079993360227fe9eb849869081826e76fa3e7cb96bc7ec23",
+      "role": "readme"
+    }
+  ]
+}

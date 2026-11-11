@@ -1,0 +1,9 @@
+{
+  "package_bytes": 1048576,
+  "member_count": 8,
+  "member_bytes": 100000,
+  "total_bytes": 300000,
+  "max_ratio": 1000.0,
+  "manifest_bytes": 1048576,
+  "chunk_size": 65536
+}

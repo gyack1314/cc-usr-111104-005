@@ -1,0 +1,15 @@
+{
+  "package_id": "demo-package",
+  "revision": 1,
+  "archive": "/bomb.zip",
+  "size": 231,
+  "sha256": "86494158e309fd139f6289496da0e32106e6779d33e6ae049cec96dd300a5e10",
+  "members": [
+    {
+      "path": "zeros.bin",
+      "size": 102400,
+      "sha256": "f627ca4c2c322f15db26152df306bd4f983f0146409b81a4341b9b340c365a16",
+      "role": "resource"
+    }
+  ]
+}
