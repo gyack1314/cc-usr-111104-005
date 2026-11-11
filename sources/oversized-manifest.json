@@ -1,0 +1,15 @@
+{
+  "package_id": "demo-package",
+  "revision": 1,
+  "archive": "/oversized.zip",
+  "size": 327,
+  "sha256": "a15c5a2da7b2e126d02ad28bef2ed4f8e93fc40230c320cdb416e4889f479db4",
+  "members": [
+    {
+      "path": "large.txt",
+      "size": 200000,
+      "sha256": "91e3faafd322bcdf160f3f0ce886acb092b9b9e2a1e8526b40f21a8898a8700b",
+      "role": "resource"
+    }
+  ]
+}

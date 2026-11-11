@@ -1,0 +1,24 @@
+{
+  "routes": [
+    {
+      "path": "/manifest.json",
+      "responses": [
+        {
+          "status": 200,
+          "headers": [],
+          "file": "broken-manifest.json"
+        }
+      ]
+    },
+    {
+      "path": "/broken.zip",
+      "responses": [
+        {
+          "status": 200,
+          "headers": [],
+          "file": "broken.zip"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "routes": [
+    {
+      "path": "/manifest.json",
+      "responses": [
+        {
+          "status": 200,
+          "headers": [],
+          "file": "traversal-manifest.json"
+        }
+      ]
+    },
+    {
+      "path": "/traversal.zip",
+      "responses": [
+        {
+          "status": 200,
+          "headers": [
+            [
+              "Content-Type",
+              "application/zip"
+            ]
+          ],
+          "file": "traversal.zip"
+        }
+      ]
+    }
+  ]
+}

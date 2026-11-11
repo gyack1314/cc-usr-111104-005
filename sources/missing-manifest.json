@@ -1,0 +1,33 @@
+{
+  "package_id": "demo-package",
+  "revision": 1,
+  "archive": "/missing.zip",
+  "size": 506,
+  "sha256": "52a94a56de7ee462ec2c01fc39b8889f959a4b72b1e8d2be721fffe74090b97f",
+  "members": [
+    {
+      "path": "team-a/readme.txt",
+      "size": 18,
+      "sha256": "ddae93136dcd368a3c210521b3c4c45bdf4034da2341bb7602eaebb9f2a383d3",
+      "role": "resource"
+    },
+    {
+      "path": "team-a/data.bin",
+      "size": 128,
+      "sha256": "471fb943aa23c511f6f72f8d1652d9c880cfa392ad80503120547703e56a2be5",
+      "role": "resource"
+    },
+    {
+      "path": "team-b/readme.txt",
+      "size": 5,
+      "sha256": "d9298a10d1b0735837dc4bd85dac641b0f3cef27a47e5d53a54f2f3f5b2fcffa",
+      "role": "resource"
+    },
+    {
+      "path": "empty.txt",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "role": "resource"
+    }
+  ]
+}

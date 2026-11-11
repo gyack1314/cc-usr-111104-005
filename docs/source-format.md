@@ -1,0 +1,5 @@
+# 资料包清单
+
+清单与ZIP都来自本地HTTP；清单archive是相对来源URL。成员路径必须为非空相对POSIX路径；不接受空段或点段，目录条目不算成员。ZIP只允许stored/deflated，无加密、分卷、嵌套解包或ZIP64。压缩比定义为实际解压字节/压缩成员长度，零压缩长度且非空输出视为无限。成员元数据的mode不能表示链接或特殊文件。所有manifest的size和sha256针对完整原始ZIP字节，各成员hash针对解压字节。
+
+normal是有效包，missing清单多出empty.txt，collision的路径在casefold后相同，traversal含父路径，broken是中央目录截断包，oversized可用于小预算接收。来源没有资料接收、解压及发布逻辑，原始字节存储与包级接收是不同功能。
